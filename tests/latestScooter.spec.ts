@@ -14,6 +14,5 @@ test('Display latest Scooters', async ({page}) => {
   await page.screenshot({path:'test-results/latest_Scooters.png'});
 await page.waitForTimeout(3000);
   await latest.printScooterNames();
- 
   await page.close();
 });
